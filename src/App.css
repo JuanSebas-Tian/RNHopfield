@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -45,6 +46,8 @@
   width: 40%;
   height: 50vh;
   margin: 0 25px 25px;
+  justify-content: center;
+  text-align: center;
 }
 
 .cubo{
@@ -63,7 +66,7 @@
   position: relative;
   background-color: gray;
   height: 8vh;
-  margin-top: -22px;
+  margin-top: 50px;
 }
 
 @keyframes App-logo-spin {
@@ -73,4 +76,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.arr1{
+  background-color: rgba(50, 120, 180, 4);
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid white;
+  display: inline-block;
+  /* margin: 5%; */
+}
+
+.arr-1{
+  background-color: rgba(0, 0, 0, 0);
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid white;
+  display: inline-block;
+  /* margin: 5%; */
+}
+
+.fila {
+  height: 1.8rem;
+}
+
+
+.arr1-figu{
+  background-color: rgba(50, 120, 180, 4);
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1px solid white;
+  display: inline-block;
+  /* margin: 5%; */
+}
+
+.arr-1-figu{
+  background-color: rgba(0, 0, 0, 0);
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1px solid white;
+  display: inline-block;
+  /* margin: 5%; */
+}
+
+.fila-figu {
+  height: 1.4rem;
+}
+
+.hodden{
+  display: inline-flex;
+  margin-bottom: 2rem;
 }
